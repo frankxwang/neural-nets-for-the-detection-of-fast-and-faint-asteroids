@@ -5,7 +5,7 @@ This repository contains the main scripts used for my research along with numero
 ## Main Scripts:
 ```generate_batches.py```: Generates the artificial dataset of asteroids used to train the machine learning model. 
 
-```train.py```: Takes in that dataset and trains a Convolutional Neural Network, built upon EfficientNet-B1, to recognize asteroid streaks. The training results and trained models are recording using [Weights and Biases](https://wandb.ai).
+```train.py```: Takes in that dataset and trains a Convolutional Neural Network, built upon EfficientNet-B1, to recognize asteroid streaks. The training results and trained models are recorded using [Weights and Biases](https://wandb.ai).
 
 ```run_pipeline.py```: Uses the trained neural network to find asteroid streaks in a full night of data containing science, reference, and differenced images. 
 
