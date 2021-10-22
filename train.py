@@ -41,7 +41,7 @@ import pickle as pkl
 
 size = 80
 
-# set this is the directory of the Keras model if resuming a session
+# set this to the directory of the Keras model if resuming a session
 pretrained_file = None
 
 # path to dataset from generate_batches
