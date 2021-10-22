@@ -373,7 +373,7 @@ def check_image(arr, bad_pix_max=80):
 
 # run the full pipeline on a science, reference, and difference image
 # threshold is for the ML model, align=False if inputs are prealigned images, clean_sat for saturation artifact removal, clean for artifact + cosmic ray removal, use_swarp=False for GPU alignment
-def process_images(sci_file, ref_file, diff_file, threshold=0.85, batch_size=2048, align=True, clean_sat=True, clean=True, use_swarp=False):
+def process_images(sci_file, ref_file, diff_file, threshold=model_threshold, batch_size=2048, align=True, clean_sat=True, clean=True, use_swarp=False):
     
     # load images and align them
     if align:
